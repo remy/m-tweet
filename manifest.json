@@ -2,7 +2,6 @@
   "author": "Remy Sharp",
   "content_scripts": [
     {
-      "css": ["style.css"],
       "js": ["script.js"],
       "matches": ["https://*.twitter.com/*", "https://twitter.com/*"],
       "run_at": "document_start"
